@@ -4,16 +4,19 @@
 # Program that ask the user imput an integer
 # and output values of a calculation.
 
-p = float (input("Please enter a positive integer:"))
+n = int (input("Please enter a positive integer:"))
 
+# number = n
 
-# check if p is even
-while p != 1:
-    print(p, end = " ")
-
-    #if p is odd
-    if p = (3 * p) + 1
-    #if even
+# check if n is even
+while n != 1:
+    if n % 2 == 0:
+        n = int (n / 2)
+        print(n)
+    
     else:
-        p = p // 2
-print(p)
+        n = int ((n * 3) + 1)
+        print(n)
+        
+
+    
