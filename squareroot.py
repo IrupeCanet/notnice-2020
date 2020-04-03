@@ -10,15 +10,16 @@ import sys
 #get number from user
 
 try:
-    number = float (input("Please enter number; "))
+    number = float (input("Please enter a number: "))
+    
 
-if  number < 0:
-    # c number = complex number
-    c number = cm.sqrt(complex(number, 0))
-    print(c number)
-    # r number = rounded number
-    r number = np.around(c number, decimals=1)
-    print ("Aproximation of square root is: ", r number, "Because is a complex number")
+if number < 0:
+    # c_number = complex number
+    c_number = cm.sqrt(complex(number, 0))
+    print(c_number)
+    # r_number = rounded number
+    r_number = np.around(c_number, decimals=1)
+    print ("Aproximation of square root is: ", r_number, "Because is a complex number")
 
 else:
     number = np.sqrt(number)
