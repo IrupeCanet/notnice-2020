@@ -4,19 +4,23 @@
 # number as imput and outputs an aproximation of its square root.
 
 import numpy as np
-import math as mt
 import cmath as cm
 import sys
 
 #get number from user
 
-if number < 0:
+try:
+    number = float (input("Please enter number; "))
+
+if  number < 0:
+    # c number = complex number
     c number = cm.sqrt(complex(number, 0))
     print(c number)
+    # r number = rounded number
     r number = np.around(c number, decimals=1)
-    print ("Aproximation of square root is: ", r number)
+    print ("Aproximation of square root is: ", r number, "Because is a complex number")
+
 else:
-    number = mt.sqrt(number)
+    number = np.sqrt(number)
     print("Square root of provided number is: ", number)
-    
-        
+
