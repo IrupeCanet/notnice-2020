@@ -9,8 +9,7 @@ import sys
 
 #get number from user
 
-try:
-    number = float (input("Please enter a number: "))
+number = float (input("Enter a number:"))
     
 
 if number < 0:
