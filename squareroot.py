@@ -9,7 +9,7 @@ import sys
 
 #get number from user
 
-number = float (input("Please, enter your number:"))
+number = float (input("Please, enter your number: "))
     
 
 if number < 0:
@@ -23,5 +23,5 @@ if number < 0:
 
 else:
     number = np.sqrt(number)
-    print("Square root of provided number is: ", number)
+    print("Square root of provided number is:", number)
 
