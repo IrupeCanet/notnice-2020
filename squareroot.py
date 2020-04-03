@@ -10,4 +10,13 @@ import sys
 
 #get number from user
 
-if number < 0
+if number < 0:
+    c number = cm.sqrt(complex(number, 0))
+    print(c number)
+    r number = np.around(c number, decimals=1)
+    print ("Aproximation of square root is: ", r number)
+else:
+    number = mt.sqrt(number)
+    print("Square root of provided number is: ", number)
+    
+        
